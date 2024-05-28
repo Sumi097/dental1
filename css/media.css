@@ -1,0 +1,137 @@
+
+@media (max-width:575px) {
+    .top_info {
+        display: none;
+    }
+    .logo {
+        text-align: center;
+    }
+    .height {
+        align-items: center;
+        min-height: 50vh;
+        text-align: center;
+        padding-top: 52px;
+    }
+    .height_content {
+        align-items: center;
+        min-height: 50vh;
+        text-align: center;
+        padding-top: 52px;
+    }
+    .banner_picture {
+        position: absolute;
+        width: 56%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        bottom: auto;
+        z-index: -1;
+        opacity: .5;
+        bottom: 0;
+    }
+    .banner_pic {
+        position: absolute;
+        width: 78%;
+        right: 0%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        opacity: .5;
+        bottom: 0;
+    }
+    .height_content p {
+        padding: 0 30px;
+    }
+    .content p {
+        padding: 0 30px;
+    }
+    .doc_pic {
+        display: none;
+    }
+    .tooth {
+        text-align: center;
+    }
+    .btn-appoint {
+        padding: 8px 27px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+
+@media (max-width:767px) {
+    .top_info {
+        display: none;
+    }
+    .logo {
+        text-align: center;
+    }
+    .height_content {
+        min-height: 65vh;
+        text-align: center;
+        padding-top: 60px;
+    }
+    .height {
+        min-height: 65vh;
+        text-align: center;
+        padding-top: 60px;
+    }
+    .banner_pic {
+        z-index: -1;
+        position: absolute;
+        width: 109%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        bottom: 0;
+        opacity: .5;
+    }
+    .banner_picture {
+        position: absolute;
+        width: 78%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        bottom: 0;
+        opacity: .5;
+        z-index: -1;
+    }
+    .doc_pic {
+        display: none;
+    }
+    .tooth {
+        text-align: center;
+    }
+    .service_pic img {
+        width: 8%;
+    }
+    .sam_pic {
+        width: 40%;
+        margin: auto;
+    }
+    .sample {
+        margin-top: 30px;
+    }
+    .logo_pic img {
+        width: 40%;
+        margin-bottom: 40px;
+    }
+    .post_pic {
+        width: 15%;
+    }
+    .right h5 {
+        text-align: center;
+    }
+    .nav-item {
+        display: inline-flex;
+        justify-content: center;
+    }
+    .btn-appoint {
+        padding: 8px 27px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
